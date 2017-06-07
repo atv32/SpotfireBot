@@ -18,7 +18,7 @@
 	<hr>
 	<dashboard>
 		<div class="w3-container">
-			<h2>RD IT Innovatino Hub</h2>
+			<header><h2>RD IT Innovatino Hub</h2></header>
 			<p>CAPTION HERE</p>
 		</div>
 		<div class="w3-content w3-display-container">
@@ -82,6 +82,19 @@
 				}
 				x[slideIndex-1].style.display = "block";  
 			}
+			var myIndex = 0;
+			carousel();
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 5000);
+			}
 		</script>
 	</dashboard>
 	<hr>
@@ -97,26 +110,8 @@
 
 <div class="feed">
 	<h1>Innovation Hub Feed</h1>
-	<p>apple ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		dddddddddddddddddddddd dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd dddddddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		ddddddddddddddddddddddd ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd ddddddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		dddddddddddddddddddddddd dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd dddddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		ddddddddddddddddddddddddd ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd ddddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		dddddddddddddddddddddddddd dddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd dddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		ddddddddddddddddddddddddddd ddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd ddddddddddddd<br>
-		ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
-		dddddddddddddddddddddddddddd dddddddddddddddddddddddddddddddddddddddddddddddddddddd
+	<p>
+		Content
 	</p>
 </div>
 	
@@ -125,6 +120,8 @@
 <a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 </div>
+
+<footer>GZK</footer>
 
 <style>
 div.feed {
@@ -171,5 +168,12 @@ hr {
     border-style: inset;
     border-width: 1px;
 } 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: orange;
+    clear: left;
+    text-align: center;
+}
 </style>
 
