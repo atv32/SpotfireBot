@@ -14,7 +14,7 @@ body,html
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #f8bbd0;
+    background: #ff981c;
 }
 
 .topnav
@@ -127,7 +127,7 @@ body,html
 {
  font-family: 'Roboto', sans-serif;
  font-weight: 100;
- color:  #f8bbd0;
+ color:  #ff981c;
  font-size: 5em;
  text-align: center;
  width: 100%;
