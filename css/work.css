@@ -5,7 +5,7 @@ body,html
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background: #dbe6ff;
+  background: #ffffff;
 }
 
 ::-webkit-scrollbar {
@@ -110,13 +110,13 @@ body,html
 
 .container
 {
-  background: #080808;
+  background: #dbe6ff;
 }
 
 #work-section
 {	
   background-size: cover;
-  background: #080808;
+  background: #dbe6ff;
   height: 100%;
   width: 100%;
   padding-top: 50px; 
@@ -139,14 +139,14 @@ body,html
 
 .row
 {
-  background: #080808;
+  background: #dbe6ff;
   padding-bottom: 20px;
 }
 
 .col-md-6
 {
   padding-bottom: 20px;
-  background: #080808;
+  background: #dbe6ff;
 }
 
 .demo-card-wide.mdl-card {
@@ -211,10 +211,10 @@ body,html
 
 
 {
-  background: url('https://www.doublerobotics.com/img2/standard/hero-linkedin-wide.jpg') center / cover;
+  background: url('../images/double.jpg') center / cover;
 }
 
 {
-  background: url('https://tctechcrunch2011.files.wordpress.com/2015/02/shutterstock_175625024.jpg?w=738') center / cover;
+  background: url('../images/bot.jpg') center / cover;
 }
 
