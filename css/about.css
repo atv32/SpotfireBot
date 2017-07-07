@@ -1,0 +1,150 @@
+body,html 
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: #080808;
+}
+
+.topnav
+{
+  background-color: transparent;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.icon-bar
+{
+  background-color: #ffffff;
+}
+
+#first-name
+{
+ color: #f8bbd0;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1.5em;
+ font-weight: 100;
+ transition: all 1s ease;
+ background-color: transparent;
+}
+
+#last-name
+{
+ color: #ffffff;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1.5em;
+ font-weight: 400;
+ transition: all 1s ease;
+ background-color: transparent;
+}
+
+#name
+{
+  margin-left: 20px; 
+  outline: none;
+}
+
+#name:hover #first-name,
+#name:focus #first-name,
+#name:active #first-name
+{
+  color: #ffffff;
+  outline: none;
+  transition: all 1s ease;
+  background-color: transparent;
+}
+
+#name:hover #last-name,
+#name:focus #last-name,
+#name:active #last-name
+{
+  color: #f8bbd0;
+  outline: none;
+  transition: all 1s ease;
+  background-color: transparent;
+}
+
+.nav
+{
+  padding-right: 10px;
+}
+
+.navbar-brand
+{
+  outline: none;
+}
+
+.topnav ul.navbar-nav li a
+{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  text-align: right;
+  font-weight: 400;
+  outline: none;
+  transition: all 1s ease;
+  background-color: transparent;
+}
+
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus,
+.topnav ul.navbar-nav li a:active
+{
+ color: #f8bbd0;
+ transition: all 1s ease;
+ outline: none;
+ background-color: transparent;
+}
+
+.container
+{
+  background: #080808;
+}
+
+#about-section
+{	
+  background-size: cover;
+  background: #080808;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px; 
+}
+
+#header-text
+{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 100;
+ color:  #f8bbd0;
+ font-size: 5em;
+ text-align: center;
+ width: 100%;
+ animation-duration: 2s;
+ -moz-animation-duration: 2s;
+ -o-animation-duration: 2s;
+ -webkit-animation-duration: 2s;
+}
+
+#about-text
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: left;
+  padding-bottom: 20px;
+  animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+}
+
+#profile-image
+{
+  animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+}
