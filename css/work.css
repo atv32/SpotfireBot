@@ -5,7 +5,7 @@ body,html
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background: #080808;
+  background: #dbe6ff;
 }
 
 ::-webkit-scrollbar {
@@ -32,7 +32,7 @@ body,html
 
 #first-name
 {
- color: #f8bbd0;
+ color: #ff981c;
  font-family: 'Roboto', sans-serif;
  font-size: 1.9em;
  font-weight: 100;
@@ -167,8 +167,8 @@ body,html
 
 .mdl-button .mdl-button--colored .mdl-js-button .mdl-js-ripple-effect
 {
-  color: #F8BBD0;
-  background: #F8BBD0;
+  color: #ff981c;
+  background: #ff981c;
 }
 
 #pf-description
@@ -187,46 +187,34 @@ body,html
 
 #fb-button1
 {
-  color: #F8BBD0;
+  color: #ff981c;
   text-decoration: none;
 }
 
 #ps-button1
 {
-  color: #F8BBD0;
+  color: #ff981c;
   text-decoration: none;
 }
 
 #fb-button2
 {
-  color: #F8BBD0;
+  color: #ff981c;
   text-decoration: none;
 }
 
 #ps-button2
 {
-  color: #F8BBD0;
+  color: #ff981c;
   text-decoration: none;
 }
 
 
-#pickflick
 {
-  background: url('../images/s1.jpg') center / cover;
+  background: url('../images/double.jpg') center / cover;
 }
 
-
-#xtable
 {
-  background: url('../images/s2.jpg') center / cover;
+  background: url('../images/bot.jpg') center / cover;
 }
 
-/*
-#antix
-{
-  background: url('../images/s1.jpg') center / cover;
-}
-#galivo
-{
-  background: url('../images/s1.jpg') center / cover;
-}*/
