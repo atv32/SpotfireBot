@@ -23,7 +23,7 @@ body,html
 
 #first-name
 {
- color: #f8bbd0;
+ color: #ff981c;
  font-family: 'Roboto', sans-serif;
  font-size: 1.5em;
  font-weight: 100;
@@ -60,7 +60,7 @@ body,html
 #name:active #last-name
 {
   background: transparent;
-  color: #f8bbd0;
+  color: #ff981c;
   outline: none;
   transition: all 1s ease;
 }
@@ -95,7 +95,7 @@ body,html
 #home-section
 {	
   background-size: cover;
-  background: #080808;
+  background: #dbe6ff;
   height: 100%;
   width: 100%;
 }
