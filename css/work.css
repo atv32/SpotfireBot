@@ -211,10 +211,10 @@ body,html
 
 
 {
-  background:url(img src="https://SpotfireBot.github.io/images/bot.jpg") center / cover;
+  background:url("../images/bot.png") center / cover;
 }
 
 {
-  background-image: url('../images/bot.jpg') center / cover;
+  background-image: url('../images/bot.png') center / cover;
 }
 
