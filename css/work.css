@@ -14,7 +14,7 @@ body,html
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ff981c;
+    background: #F37221;
 }
 
 .topnav
@@ -32,7 +32,7 @@ body,html
 
 #first-name
 {
- color: #ff981c;
+ color: #F37221;
  font-family: 'Roboto', sans-serif;
  font-size: 1.9em;
  font-weight: 100;
@@ -70,7 +70,7 @@ body,html
 #name:focus #last-name,
 #name:active #last-name
 {
-  color: #ff981c;
+  color: #F37221;
   outline: none;
   transition: all 1s ease;
   background-color: transparent;
@@ -102,7 +102,7 @@ body,html
 .topnav ul.navbar-nav li a:focus,
 .topnav ul.navbar-nav li a:active
 {
- color: #ff981c;
+ color: #F37221;
  transition: all 1s ease;
  outline: none;
  background-color: transparent;
@@ -116,7 +116,7 @@ body,html
 #work-section
 {	
   background-size: cover;
-  background: #dbe6ff;
+  background: #202021;
   height: 100%;
   width: 100%;
   padding-top: 50px; 
@@ -127,7 +127,7 @@ body,html
 {
  font-family: 'Roboto', sans-serif;
  font-weight: 100;
- color:  #ff981c;
+ color:  #F37221;
  font-size: 5em;
  text-align: center;
  width: 100%;
@@ -139,14 +139,14 @@ body,html
 
 .row
 {
-  background: #dbe6ff;
+  background: #202021;
   padding-bottom: 20px;
 }
 
 .col-md-6
 {
   padding-bottom: 20px;
-  background: #dbe6ff;
+  background: #202021;
 }
 
 .demo-card-wide.mdl-card {
@@ -167,8 +167,8 @@ body,html
 
 .mdl-button .mdl-button--colored .mdl-js-button .mdl-js-ripple-effect
 {
-  color: #ff981c;
-  background: #ff981c;
+  color: #F37221;
+  background: #F37221;
 }
 
 #pf-description
@@ -187,34 +187,34 @@ body,html
 
 #fb-button1
 {
-  color: #ff981c;
+  color: #F37221;
   text-decoration: none;
 }
 
 #ps-button1
 {
-  color: #ff981c;
+  color: #F37221;
   text-decoration: none;
 }
 
 #fb-button2
 {
-  color: #ff981c;
+  color: #F37221;
   text-decoration: none;
 }
 
 #ps-button2
 {
-  color: #ff981c;
+  color: #F37221;
   text-decoration: none;
 }
 
 
 {
-  background: url('../images/double.jpg') center / cover;
+  background: url('.../images/double.jpg') center / cover;
 }
 
 {
-  background: url('../images/bot.jpg') center / cover;
+  background: url('.../images/bot.jpg') center / cover;
 }
 
