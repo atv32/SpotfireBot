@@ -70,7 +70,7 @@ body,html
 #name:focus #last-name,
 #name:active #last-name
 {
-  color: #f8bbd0;
+  color: #ff981c;
   outline: none;
   transition: all 1s ease;
   background-color: transparent;
@@ -102,7 +102,7 @@ body,html
 .topnav ul.navbar-nav li a:focus,
 .topnav ul.navbar-nav li a:active
 {
- color: #f8bbd0;
+ color: #ff981c;
  transition: all 1s ease;
  outline: none;
  background-color: transparent;
@@ -110,7 +110,7 @@ body,html
 
 .container
 {
-  background: #dbe6ff;
+  background: #141414;
 }
 
 #work-section
