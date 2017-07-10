@@ -212,9 +212,10 @@ body,html
 
 {
   background:url(../images/double.jpg) center / cover;
+  background-image: url("../images/double.jpg")
 }
 
 {
-  background:url(../images/bot.jpg) center / cover;
+  background-image: url("../images/bot.jpg")
 }
 
