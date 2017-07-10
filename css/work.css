@@ -116,7 +116,7 @@ body,html
 #work-section
 {	
   background-size: cover;
-  background: #202021;
+  background: #4B4B4B;
   height: 100%;
   width: 100%;
   padding-top: 50px; 
@@ -139,14 +139,14 @@ body,html
 
 .row
 {
-  background: #202021;
+  background: #4B4B4B;
   padding-bottom: 20px;
 }
 
 .col-md-6
 {
   padding-bottom: 20px;
-  background: #202021;
+  background: #4B4B4B;
 }
 
 .demo-card-wide.mdl-card {
@@ -209,12 +209,12 @@ body,html
   text-decoration: none;
 }
 
-
+#doubleRobot
 {
-  background:url("../images/bot.png") center / cover;
+  background: url('../images/double.jpg') center / cover;
 }
-
+#aiBot
 {
-  background-image: url('../images/bot.png') center / cover;
+  background:url('../images/bot.png') center / cover;
 }
 
