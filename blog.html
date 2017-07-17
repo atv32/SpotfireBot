@@ -60,48 +60,19 @@
 	<div id="work-section">
 		
 		<div class="row">
-			<h1 id="header-text">Blog</h1> <#--
+			<h1 id="header-text">Blog</h1>
 		</div>
-		<div class="container">
-			<div class="row centre-block">
-				<div id="card1" class="col-md-6 center-block">
-					<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-						<div id="doubleRobot" class="mdl-card__title">
-							<h2 class="mdl-card__title-text">Double Robot</h2>
-						</div>
-						<div class="mdl-card__supporting-text">
-							<p id="pf-description">Telecommunication robot for over seas conferences and meetings. Revolutionizing the way we interact.</p>
-						</div>
-						<div class="mdl-card__actions mdl-card--border">
-							<a id="ps-button1" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-							href="https://doublerobotics.com" target="_blank">
-							Demo Video
-						</a>
-						<a id="fb-button1" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com" target="_blank">
-							More Details
-						</a>
-					</div>
-				</div>
-			</div>
+		<div id="embedded-feed" style="height:800px;width:400px;"></div>
+		<script type="text/javascript" src="https://s0.assets-yammer.com/assets/platform_embed.js"></script>
+		<script type="text/javascript">
+		yam.connect.embedFeed({
+		  container: "#embedded-feed",
+		  network: "gsk.com",
+		  feedType: "group",
+		  feedId: "166493"
+		});
+		</script>
 
-		<!--	<div id="card2" class="col-md-6 center-block">
-				<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-					<div id="aiBot" class="mdl-card__title">
-						<h2 class="mdl-card__title-text">Spotfire Bot</h2>
-					</div>
-					<div class="mdl-card__supporting-text">
-						<p id="pf-description">Use Spotfire Bot to discover, explore, and answer spotfire questions with ease and anytime.</p>
-					</div>
-					<div class="mdl-card__actions mdl-card--border">
-						<a id="ps-button1" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-						href="https://www.google.com" target="_blank">
-						Demo Video
-					</a>
-					<a id="fb-button1" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.google.com" target="_blank">
-						More Details
-					</a>
-				</div>
-			</div>-->
 		</div>
 			</div>
 		</div>
