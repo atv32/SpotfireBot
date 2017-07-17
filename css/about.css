@@ -4,8 +4,17 @@ body,html
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
-  background: #080808;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 5px;  
+    background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F37221;
 }
 
 .topnav
@@ -23,9 +32,9 @@ body,html
 
 #first-name
 {
- color: #f8bbd0;
+ color: #F37221;
  font-family: 'Roboto', sans-serif;
- font-size: 1.5em;
+ font-size: 1.9em;
  font-weight: 100;
  transition: all 1s ease;
  background-color: transparent;
@@ -35,7 +44,7 @@ body,html
 {
  color: #ffffff;
  font-family: 'Roboto', sans-serif;
- font-size: 1.5em;
+ font-size: 1.9em;
  font-weight: 400;
  transition: all 1s ease;
  background-color: transparent;
@@ -61,7 +70,7 @@ body,html
 #name:focus #last-name,
 #name:active #last-name
 {
-  color: #f8bbd0;
+  color: #F37221;
   outline: none;
   transition: all 1s ease;
   background-color: transparent;
@@ -93,7 +102,7 @@ body,html
 .topnav ul.navbar-nav li a:focus,
 .topnav ul.navbar-nav li a:active
 {
- color: #f8bbd0;
+ color: #F37221;
  transition: all 1s ease;
  outline: none;
  background-color: transparent;
@@ -101,23 +110,24 @@ body,html
 
 .container
 {
-  background: #080808;
+  background: #141414;
 }
 
-#about-section
+#work-section
 {	
   background-size: cover;
-  background: #080808;
+  background: #4B4B4B;
   height: 100%;
   width: 100%;
   padding-top: 50px; 
+  overflow-x: hidden;
 }
 
 #header-text
 {
  font-family: 'Roboto', sans-serif;
  font-weight: 100;
- color:  #f8bbd0;
+ color:  #F37221;
  font-size: 5em;
  text-align: center;
  width: 100%;
@@ -127,24 +137,83 @@ body,html
  -webkit-animation-duration: 2s;
 }
 
-#about-text
+.row
 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 1.5em;
-  text-align: left;
+  background: #4B4B4B;
   padding-bottom: 20px;
-  animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  -o-animation-duration: 2s;
-  -webkit-animation-duration: 2s;
 }
 
-#profile-image
+.col-md-6
 {
-  animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  -o-animation-duration: 2s;
-  -webkit-animation-duration: 2s;
+  padding-bottom: 20px;
+  background: #4B4B4B;
+}
+
+.demo-card-wide.mdl-card {
+  width: 460px;
+  color: #FAFAFA;
+  background: #101010;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #FAFAFA;
+  background: #101010;
+  height: 280px;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #FAFAFA;
+  background: #101010;
+}
+
+.mdl-button .mdl-button--colored .mdl-js-button .mdl-js-ripple-effect
+{
+  color: #F37221;
+  background: #F37221;
+}
+
+#pf-description
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgba(255,255,255,0.8);
+}
+
+#ax-description
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgba(255,255,255,0.8);
+}
+
+#fb-button1
+{
+  color: #F37221;
+  text-decoration: none;
+}
+
+#ps-button1
+{
+  color: #F37221;
+  text-decoration: none;
+}
+
+#fb-button2
+{
+  color: #F37221;
+  text-decoration: none;
+}
+
+#ps-button2
+{
+  color: #F37221;
+  text-decoration: none;
+}
+
+#doubleRobot
+{
+  background: url('../images/double.jpg') center / cover;
+}
+#aiBot
+{
+  background:url('../images/bot.png') center / cover;
 }
