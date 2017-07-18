@@ -150,7 +150,7 @@ body,html
 }
 
 .demo-card-wide.mdl-card {
-  width: 75%;
+  width: 95%;
   color: #FAFAFA;
   background: #101010;
 }
@@ -212,4 +212,20 @@ body,html
 #RDITIH
 {
   background: url('../images/RD_InnoHub_Logo.PNG') center / cover;
+}
+#doubleRobot
+{
+  background: url('../images/double.jpg') center / cover;
+}
+#aiBot
+{
+  background:url('../images/bot.png') center / cover;
+}
+#container
+{
+  background:url('../images/cointainer.jpg') center / cover;
+}
+#blockchain
+{
+  background:url('../images/blockchain.jpg') center / cover;
 }
