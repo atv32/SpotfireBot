@@ -150,7 +150,7 @@ body,html
 }
 
 .demo-card-wide.mdl-card {
-  width: 760px;
+  width: 75%;
   color: #FAFAFA;
   background: #101010;
 }
