@@ -217,4 +217,11 @@ body,html
 {
   background:url('../images/bot.png') center / cover;
 }
-
+#container
+{
+  background:url('../images/cointainer.jpg') center / cover;
+}
+#blockchain
+{
+  background:url('../images/blockchain.jpg') center / cover;
+}
