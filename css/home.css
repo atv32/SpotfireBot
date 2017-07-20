@@ -30,6 +30,11 @@ body,html
   background-color: #ffffff;
 }
 
+#logo 
+{ 
+  float: left; 
+}
+
 #first-name
 {
  color: #F37221;
