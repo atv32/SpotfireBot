@@ -137,34 +137,6 @@ body,html
  -webkit-animation-duration: 2s;
 }
 
-#innovation-text
-{
- font-family: 'Roboto', sans-serif;
- font-weight: 100;
- color:  #F37221;
- font-size: 5em;
- text-align: center;
- width: 100%;
- animation-duration: 2s;
- -moz-animation-duration: 2s;
- -o-animation-duration: 2s;
- -webkit-animation-duration: 2s;
-}
-
-#blog-text
-{
- font-family: 'Roboto', sans-serif;
- font-weight: 100;
- color:  #F37221;
- font-size: 5em;
- text-align: center;
- width: 100%;
- animation-duration: 2s;
- -moz-animation-duration: 2s;
- -o-animation-duration: 2s;
- -webkit-animation-duration: 2s;
-}
-
 .row
 {
   background: #4B4B4B;
@@ -241,19 +213,44 @@ body,html
 {
   background: url('../images/RD_InnoHub_Logo.PNG') center / cover;
 }
+
 #doubleRobot
 {
   background: url('../images/double.jpg') center / cover;
 }
+
 #aiBot
 {
   background:url('../images/bot.png') center / cover;
 }
+
 #container
 {
   background:url('../images/cointainer.jpg') center / cover;
 }
+
 #blockchain
 {
   background:url('../images/blockchain.jpg') center / cover;
 }
+
+#person1
+{
+  background: url('../images/dannydevito.jpg') center / cover;
+}
+
+#person2
+{
+  background: url('../images/charlieday.jpg') center / cover;
+}
+
+#person3
+{
+  background: url('../images/johnnydepp.jpg') center / cover;
+}
+
+#person4
+{
+  background: url('../images/kitharrington.jpg') center / cover;
+}
+
