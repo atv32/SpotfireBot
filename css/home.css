@@ -160,17 +160,17 @@ body,html
 .demo-card-wide.mdl-card {
   width: 95%;
   color: #FAFAFA;
-  background: #101010;
+  background: #4B4B4B;
 }
 .demo-card-wide > .mdl-card__title {
   color: #FAFAFA;
-  background: #101010;
+  background: #4B4B4B;
   height: 280px;
 }
 
 .demo-card-wide > .mdl-card__menu {
   color: #FAFAFA;
-  background: #101010;
+  background: #4B4B4B;
 }
 
 .mdl-button .mdl-button--colored .mdl-js-button .mdl-js-ripple-effect
