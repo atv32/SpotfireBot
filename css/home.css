@@ -40,7 +40,7 @@ body,html
 
 #first-name
 {
- color: #F37221;
+ color: #B5DC11;
  font-family: 'Roboto', sans-serif;
  font-size: 1.9em;
  font-weight: 100;
@@ -50,7 +50,7 @@ body,html
 
 #last-name
 {
- color: #ffffff;
+ color: #BE1979;
  font-family: 'Roboto', sans-serif;
  font-size: 1.9em;
  font-weight: 400;
@@ -68,7 +68,7 @@ body,html
 #name:focus #first-name,
 #name:active #first-name
 {
-  color: #ffffff;
+  color: #BE1979;
   outline: none;
   transition: all 1s ease;
   background-color: transparent;
@@ -78,7 +78,7 @@ body,html
 #name:focus #last-name,
 #name:active #last-name
 {
-  color: #F37221;
+  color: #B5DC11;
   outline: none;
   transition: all 1s ease;
   background-color: transparent;
@@ -96,7 +96,7 @@ body,html
 
 .topnav ul.navbar-nav li a
 {
-  color: #ffffff;
+  color: #BE1979;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   text-align: right;
@@ -110,7 +110,7 @@ body,html
 .topnav ul.navbar-nav li a:focus,
 .topnav ul.navbar-nav li a:active
 {
- color: #F37221;
+ color: #B5DC11;
  transition: all 1s ease;
  outline: none;
  background-color: transparent;
@@ -118,13 +118,13 @@ body,html
 
 .container
 {
-  background: #141414;
+  background: #4B4B4B;
 }
 
 #work-section
 {	
   background-size: cover;
-  background: #4B4B4B;
+  background: #ffffff;
   height: 100%;
   width: 100%;
   padding-top: 50px; 
