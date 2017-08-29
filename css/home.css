@@ -178,7 +178,7 @@ body,html
 .mdl-button .mdl-button--colored .mdl-js-button .mdl-js-ripple-effect
 {
   color: #F37221;
-  background: #F37221;
+  background: #F37221; 
 }
 
 #pf-description
@@ -364,7 +364,7 @@ body {
 
 #RDITIH
 {
-  background: url('../images/RD_InnoHub_Logo.PNG') center / cover;
+  background: url('https://raw.githubusercontent.com/atv32/SpotfireBot.github.io/master/images/blockchain.jpg') center / cover;
 }
 
 #doubleRobot
@@ -387,23 +387,4 @@ body {
   background:url('../images/blockchain.jpg') center / cover;
 }
 
-#person1
-{
-  background: url('../images/dannydevito.jpg') center / cover;
-}
-
-#person2
-{
-  background: url('../images/charlieday.jpg') center / cover;
-}
-
-#person3
-{
-  background: url('../images/johnnydepp.jpg') center / cover;
-}
-
-#person4
-{
-  background: url('../images/kitharrington.jpg') center / cover;
-}
 
