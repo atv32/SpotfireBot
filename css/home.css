@@ -167,6 +167,7 @@ body,html
   background: #4B4B4B;
   text-shadow: 2px 2px #EH4200;
   height: 280px;
+  font-weight:bold;
 }
 
 .demo-card-wide > .mdl-card__menu {
